@@ -3,6 +3,17 @@
 This project automates the search functionality on IMDb's "Search Name" page using Selenium WebDriver and Pytest. It follows the **Page Object Model (POM)** design pattern and uses **Explicit Wait** and **Expected Conditions** to interact with elements on the webpage.
 
 ## Project Structure
+imdb_search/
+│
+├── pages/
+│   └── search_page.py
+├── tests/
+│   └── test_search.py
+├── utils/
+│   └── browser.py
+├── pytest.ini
+└── requirements.txt
+
 
 ## Requirements
 
